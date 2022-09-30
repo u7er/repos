@@ -66,25 +66,25 @@ void loop_type_4(){
   int i = 0;
   int j = 0;
   
-  danila: {
-    if(i < N){
-      j = 0;
-      pasha: {
-        if(j < N && j <= filter){
-          printf("%d\t", i + j + per_line);
-          ++j;
-        } else
-          goto pasha_end;
-      } goto pasha;
-      pasha_end:
-      printf("\n");
-      per_line += N - 1;
-      ++filter;
-      ++i;
-    } else
-      goto danila_end;
-  } goto danila;
-  danila end:
+  // danila: {
+  //   if(i < N){
+  //     j = 0;
+  //     pasha: {
+  //       if(j < N && j <= filter){
+  //         printf("%d\t", i + j + per_line);
+  //         ++j;
+  //       } else
+  //         goto pasha_end;
+  //     } goto pasha;
+  //     pasha_end:
+  //     printf("\n");
+  //     per_line += N - 1;
+  //     ++filter;
+  //     ++i;
+  //   } else
+  //     goto danila_end;
+  // } goto danila;
+  // danila end:
 }
 
 int main(){
